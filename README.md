@@ -23,13 +23,13 @@ This is a useful app for every health center. It provides functions both for the
 4) Open your command line and go inside the folder of our repository you downloaded. In the src folder of repository's folder you will see all our      classes (.java) and required files (.txt, manifest.mf).
 
 5) To create the .jar, insert the following commands on your command line:
-      
+```
       javac *.java
       
       jar cmf manifest.mf "Diagnostic Center.jar" *.txt *.class
+```
       
-6) If you want to run the tests
-(you should have installed the Eclipse Java software):
+6) If you want to run the tests (you should have the Eclipse IDE installed):
 
       1. Copy the files of "src" and "test classes" folders at Eclipse
       
