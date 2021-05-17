@@ -1,5 +1,5 @@
 import org.junit.*;
-import polyiatrio.Menu;
+import src.*;
 
 
 public class MenuTest {

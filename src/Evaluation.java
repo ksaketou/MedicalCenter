@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -94,7 +96,7 @@ public class Evaluation {
 						if (ans2.equals(null)) {
 							break;
 						} else {
-							if (ans2.toLowerCase().indexOf("í") != -1) {
+							if (ans2.toLowerCase().indexOf("ï¿½") != -1) {
 								sumsapp[q][0]++; // sum of "YES" for question q
 							} else {
 								sumsapp[q][1]++; // sum of "NO" for question q
@@ -108,7 +110,7 @@ public class Evaluation {
 						if (ans2.equals(null)) {
 							break;
 						} else {
-							if (ans2.toLowerCase().indexOf("í") != -1) {
+							if (ans2.toLowerCase().indexOf("ï¿½") != -1) {
 								sumsapp[q][0]++; // sum of "YES" for question q
 							} else {
 								sumsapp[q][1]++; // sum of "NO" for question q

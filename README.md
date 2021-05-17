@@ -14,21 +14,21 @@ This is a useful app for every health center. It provides functions both for the
 
 ## INSTALLING
 
-1)Clone or download our GitHub repository on your computer. 
+1) Clone or download our GitHub repository on your computer. 
 
-2)Extract the zip file you downloaded (our GitHub repository) and save them in a folder on your computer.
+2) Extract the zip file you downloaded (our GitHub repository) and save them in a folder on your computer.
 
-3)Keep only the archives that belong to src folder (delete the other files if you want to).
+3) Keep only the archives that belong to src folder (delete the other files if you want to).
 
-4)Open your command line and go inside the folder of our repository you downloaded. In the src folder of repository's folder you will see all our      classes (.java) and required files (.txt, manifest.mf).
+4) Open your command line and go inside the folder of our repository you downloaded. In the src folder of repository's folder you will see all our      classes (.java) and required files (.txt, manifest.mf).
 
-5)To create the .jar, insert the following commands on your command line:
+5) To create the .jar, insert the following commands on your command line:
       
       javac *.java
       
       jar cmf manifest.mf "Diagnostic Center.jar" *.txt *.class
       
-6)If you want to run the tests
+6) If you want to run the tests
 (you should have installed the Eclipse Java software):
 
       1. Copy the files of "src" and "test classes" folders at Eclipse

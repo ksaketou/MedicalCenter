@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -52,7 +54,7 @@ public class Table {
 
 		for (int i = 1; i <= 16; i++) {
 			for (int j = 1; j <= Employees.employees.size(); j++) {
-				table[i][j] = "         ови      ";
+				table[i][j] = "         О©╫О©╫О©╫      ";
 			}
 		}
 	}
@@ -98,7 +100,7 @@ public class Table {
 				if (eidikotita.contains(Employees.employees.get(j - 1).getSpecialty())) {
 
 					if (duration <= 30) {
-						if (table[i][j].contains("ови")) {
+						if (table[i][j].contains("О©╫О©╫О©╫")) {
 
 							text1.append(table[i][0] + "\r\n");
 							data[di][0] = table[i][0];
@@ -118,7 +120,7 @@ public class Table {
 						if ((i + totalcells) <= 17) {
 							if ((duration % 30) == 0) {
 								for (y = 0; y < totalcells; y++) {
-									if (table[i + y][j].contains("ови")) {
+									if (table[i + y][j].contains("О©╫О©╫О©╫")) {
 										pl++;
 									}
 								}
@@ -126,7 +128,7 @@ public class Table {
 								totalcells = totalcells + 1;
 								if ((i + totalcells) <= 17) {
 									for (y = 0; y < totalcells; y++) {
-										if (table[i + y][j].contains("ови")) {
+										if (table[i + y][j].contains("О©╫О©╫О©╫")) {
 											pl++;
 										}
 									}
@@ -231,7 +233,7 @@ public class Table {
 
 			if (duration <= 30) {
 
-				if (table[i][thesi].contains("ови")) {
+				if (table[i][thesi].contains("О©╫О©╫О©╫")) {
 					text1.append(table[i][0] + "\r\n");
 					exists = thesi;
 					// found the requested doctor available on time: table[i][0]
@@ -247,7 +249,7 @@ public class Table {
 
 					if ((duration % 30) == 0) {
 						for (y = 0; y < totalcells; y++) {
-							if (table[i + y][thesi].contains("ови")) {
+							if (table[i + y][thesi].contains("О©╫О©╫О©╫")) {
 								pl++;
 							}
 						}
@@ -255,7 +257,7 @@ public class Table {
 						totalcells = totalcells + 1;
 						if ((i + totalcells) <= 17) {
 							for (y = 0; y < totalcells; y++) {
-								if (table[i + y][thesi].contains("ови")) {
+								if (table[i + y][thesi].contains("О©╫О©╫О©╫")) {
 									pl++;
 								}
 							}

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -185,7 +187,7 @@ public class Employees {
 				if (thesi1 == 0) {
 
 					JOptionPane.showMessageDialog(frame,
-							"Δεν υπάρχει τέτοιος υπάλληλος!" + "\r\n Check name and surname again!");
+							"οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½!" + "\r\n Check name and surname again!");
 				} else {
 
 					String eans = JOptionPane.showInputDialog(frame,

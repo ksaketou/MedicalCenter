@@ -1,5 +1,5 @@
 import org.junit.Test;
-
+import src.*;
 import junit.framework.Assert;
 
 public class ClientTest {

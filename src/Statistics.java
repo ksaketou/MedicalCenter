@@ -1,3 +1,5 @@
+package src;
+
 import java.util.stream.IntStream;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -135,32 +137,32 @@ public class Statistics extends Application {
 		ObservableList<PieChart.Data> pieChartData =
 
 				FXCollections.observableArrayList(
-						new PieChart.Data("Αιματολογικές", Menu.sum_categories[0] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Ακτινογραφίες", Menu.sum_categories[1] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Αλλεργιολογικές", Menu.sum_categories[2] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Ανοσολογικές", Menu.sum_categories[3] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Αξονικές Τομογραφίες",
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[0] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[1] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[2] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[3] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½",
 								Menu.sum_categories[4] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Βιοχημικές", Menu.sum_categories[5] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Γαστρεντερολογικές",
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[5] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½",
 								Menu.sum_categories[6] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Γυναικολογικές", Menu.sum_categories[7] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Ούρων", Menu.sum_categories[8] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Καλλιέργειες", Menu.sum_categories[9] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Καρδιολογικές", Menu.sum_categories[10] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Μαγνητικές Τομογραφίες",
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[7] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[8] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[9] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[10] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½",
 								Menu.sum_categories[11] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Μαστογραφίες", Menu.sum_categories[12] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Μικροβιολογικές", Menu.sum_categories[13] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Νευρολογικές", Menu.sum_categories[14] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Ορμονικές", Menu.sum_categories[15] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Προγεννητικός έλεγχος",
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[12] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[13] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[14] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[15] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½",
 								Menu.sum_categories[16] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Υπέρηχοι", Menu.sum_categories[17] / ((double) stats.getSum()) * 100),
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[17] / ((double) stats.getSum()) * 100),
 						new PieChart.Data("checkup", Menu.sum_categories[18] / ((double) stats.getSum()) * 100),
 						new PieChart.Data("doppler", Menu.sum_categories[19] / ((double) stats.getSum()) * 100),
 						new PieChart.Data("triplex", Menu.sum_categories[20] / ((double) stats.getSum()) * 100),
-						new PieChart.Data("Πακέτα", Menu.sum_categories[21] / ((double) stats.getSum()) * 100));
+						new PieChart.Data("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½", Menu.sum_categories[21] / ((double) stats.getSum()) * 100));
 
 		final PieChart chart = new PieChart(pieChartData);
 		chart.setStartAngle(180);

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -113,28 +115,28 @@ public class Services {
 	 * examinations the center provides. The list is type String.
 	 */
 	public static void listEidikotites() {
-		eidikotites.add("αιματολογικές");
-		eidikotites.add("ακτινογραφίες");
-		eidikotites.add("αλλεργιολογικές");
-		eidikotites.add("ανοσολογικές");
-		eidikotites.add("αξονικές τομογραφίες");
-		eidikotites.add("βιοχημικές");
-		eidikotites.add("γαστρεντερολογικές");
-		eidikotites.add("γυναικολογικές");
-		eidikotites.add("ούρων");
-		eidikotites.add("ορμονικές");
-		eidikotites.add("προγεννητικός έλεγχος");
-		eidikotites.add("υπέρηχοι");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
 		eidikotites.add("checkup");
 		eidikotites.add("doppler");
 		eidikotites.add("triplex");
-		eidikotites.add("πακέτα");
-		eidikotites.add("καλλιέργειες");
-		eidikotites.add("καρδιολογικές");
-		eidikotites.add("μαγνητικές τομογραφίες");
-		eidikotites.add("μαστογραφίες");
-		eidikotites.add("μικροβιολογικές");
-		eidikotites.add("νευρολογικές");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
+		eidikotites.add("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½");
 	}
 
 	static JLabel num = new JLabel();
@@ -227,7 +229,7 @@ public class Services {
 										an = JOptionPane.showInputDialog(fr,
 												"You have to choose one of the three options!" + "\r\n (1)Name "
 														+ "\r\n (2)Duration" + "\r\n (3)Price"
-														+ "\r\n (choose 1, 2 ή 3)");
+														+ "\r\n (choose 1, 2 οΏ½ 3)");
 										ansnum = Integer.parseInt(an);
 									}
 								}
@@ -278,7 +280,7 @@ public class Services {
 				}
 				break;
 			} else {
-				ansserv = JOptionPane.showInputDialog(fr, "choose 1, 2 ή 3!!" + "\r\n (1)ADD A NEW SERVICE "
+				ansserv = JOptionPane.showInputDialog(fr, "choose 1, 2 οΏ½ 3!!" + "\r\n (1)ADD A NEW SERVICE "
 						+ "\r\n (2)DELETE A SERVICE" + "\r\n (3)MODIFY EXISTING SERVICE");
 			}
 		}

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.InputMismatchException;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
